@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ESTILOS DEL INDEX */
+.body__gral {
+  background-color: #607eaa;
+}
+.cont__inic {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.cont__inic .text__inicio {
+  font-size: 2rem;
+  margin: 0.5rem;
+}
+
+.cont__sec {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.cont__sec h3 {
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.img__inic {
+  text-align: center;
+}
+/* FIN ESTILOS INDEX */
+
+/*ESTILOS NAVBAR*/
+
+.color-nav {
+  background-color: #eae3d2;
+}
+.dropdown-menu {
+  background-color: #eae3d2;
+}
+.dropdown-item:hover {
+  background-color: red;
+  color: white;
+}
+
+/*FIN ESTILOS NAVBAR*/
+
+/*ESTILOS DEL FOOTER*/
+.foot {
+  background-color: #1c3879;
+}
+/*FIN ESTILO FOOTER*/
+
+/*ESTILOS TARJETAS*/
+.card {
+  align-items: center;
+  background-color: #eae3d2;
+  max-height: 500px;
+}
+.card img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.card .card-body .card-title {
+  color: black;
+}
+.card .card-body .card-text {
+  color: black;
+}
+.card .btn-primary {
+  color: #ffe4c4;
+}
+.card .btn-primary:hover {
+  background-color: red;
+}
+/*FIN ESTILOS TARJETAS*/
+
+/*MEDIA QUERYS*/
+@media screen and (min-width: 768px) {
+  .cont__inic .text__inicio {
+    font-size: 3rem;
+    margin: 0.7rem;
+  }
+  .cont__sec h3 {
+    font-size: 1.6rem;
+    margin: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 1024x) {
+  .cont__inic .text__inicio {
+    font-size: 4rem;
+    margin: 1rem;
+  }
+  .cont__sec h3 {
+    font-size: 2rem;
+    margin: 1rem;
+  }
+}
